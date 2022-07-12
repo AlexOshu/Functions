@@ -7,7 +7,7 @@ int Sub(int a, int b);
 int Mul(int a, int b);
 double Div(int a, int b);
 double Fac(int a);
-double Pow(int a, int b);
+int Pow(int a, int b);
 
 
 void main()
@@ -48,7 +48,10 @@ double Fac(int a)
 	if (a == 0) return 1;
 	else return (double) a * Fac (a - 1);
 }
-double Pow(int a, int b)
+int Pow(int a, int b)
 {
-	
+	if (b == 0) return 1;
+	if (b == 1) return a;
+	if (b % 2 == 0) return Pow(a * a, b / 2);
+	else return Pow(a * a, b / 2) * a;
 }
