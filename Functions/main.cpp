@@ -6,6 +6,8 @@ int Add(int a, int b);
 int Sub(int a, int b);
 int Mul(int a, int b);
 double Div(int a, int b);
+double Fac(int a);
+double Pow(int a, int b);
 
 
 void main()
@@ -18,6 +20,9 @@ void main()
 	cout << a << "-" << b << "=" << Sub(a, b) << endl;
 	cout << a << "*" << b << "=" << Mul(a, b) << endl;
 	cout << a << "/" << b << "=" << Div(a, b) << endl;
+	cout << a << "!" << "=" << Fac(a) << endl;
+	//cout << a << "^" << b << "=" << pow(a, b) << endl;
+	cout << a << "^" << b << "=" << Pow(a, b) << endl;
 }
 
 int Add(int a, int b)
@@ -37,4 +42,13 @@ double Div(int a, int b)
 {
 	return (double)a / b;
 }
-
+double Fac(int a)
+{
+	if (a < 0) return 0;
+	if (a == 0) return 1;
+	else return (double) a * Fac (a - 1);
+}
+double Pow(int a, int b)
+{
+	
+}
