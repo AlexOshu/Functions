@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Func
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arrays", "Arrays\Arrays.vcxproj", "{5C234D0B-E809-4360-8B0A-9B642656FFAF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recursion", "Recursion\Recursion.vcxproj", "{BC6CF4F8-399F-4AAD-A64A-D628A34BADF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{5C234D0B-E809-4360-8B0A-9B642656FFAF}.Release|x64.Build.0 = Release|x64
 		{5C234D0B-E809-4360-8B0A-9B642656FFAF}.Release|x86.ActiveCfg = Release|Win32
 		{5C234D0B-E809-4360-8B0A-9B642656FFAF}.Release|x86.Build.0 = Release|Win32
+		{BC6CF4F8-399F-4AAD-A64A-D628A34BADF7}.Debug|x64.ActiveCfg = Debug|x64
+		{BC6CF4F8-399F-4AAD-A64A-D628A34BADF7}.Debug|x64.Build.0 = Debug|x64
+		{BC6CF4F8-399F-4AAD-A64A-D628A34BADF7}.Debug|x86.ActiveCfg = Debug|Win32
+		{BC6CF4F8-399F-4AAD-A64A-D628A34BADF7}.Debug|x86.Build.0 = Debug|Win32
+		{BC6CF4F8-399F-4AAD-A64A-D628A34BADF7}.Release|x64.ActiveCfg = Release|x64
+		{BC6CF4F8-399F-4AAD-A64A-D628A34BADF7}.Release|x64.Build.0 = Release|x64
+		{BC6CF4F8-399F-4AAD-A64A-D628A34BADF7}.Release|x86.ActiveCfg = Release|Win32
+		{BC6CF4F8-399F-4AAD-A64A-D628A34BADF7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
